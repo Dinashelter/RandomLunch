@@ -1,0 +1,184 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 28, 2016, 4:34:48 PM
+    Author     : d6l
+*/
+
+#randomLunch {
+    position:absolute;
+    left:250px;
+    top:250px;
+    zoom: 1;
+    display: inline;  
+    vertical-align: baseline;  
+    margin: 0 2px;  
+    outline: none;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    font: 20px/100% Arial, Helvetica, sans-serif;  
+    padding: .5em 2em .55em;  
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    background-color: transparent;
+    color: blue;
+}
+
+#addLunchChoice {
+    position:absolute;
+    left:265px;
+    top:390px;
+    display: inline;  
+    margin: 0 2px;  
+    outline: none;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    font: 18px/100% Arial, Helvetica, sans-serif;  
+    padding: .5em 1em .55em;  
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    background-color: transparent;
+    color: blue;
+    width: 80px;
+    height: 40px;
+}
+
+#deleteLunchChoice {
+    position:absolute;
+    left:365px;
+    top:390px;
+    zoom: 1;
+    display: inline;  
+    margin: 0 1px;  
+    outline: none;  
+    cursor: pointer;  
+    text-align: left;  
+    text-decoration: none;  
+    font: 18px/100% Arial, Helvetica, sans-serif;  
+    padding: .5em 1em .55em;  
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    background-color: transparent;
+    color: blue;
+    width: 80px;
+    height: 40px;
+}
+
+#newPlace {
+    position:absolute;
+    left:250px;
+    top:320px;
+    zoom: 1;
+    display: inline;  
+    vertical-align: baseline;  
+    margin: 0 2px;  
+    outline: none;  
+    cursor: pointer;  
+    text-align: left;  
+    text-decoration: none;  
+    font: 20px/100% Arial, Helvetica, sans-serif;  
+    padding: .5em 2em .55em;  
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    background-color: transparent;
+    color: blue;
+    width: 120px;
+}
+
+#viewHistory {
+    position:absolute;
+    left:250px;
+    top:460px;
+    zoom: 1;
+    display: inline;  
+    vertical-align: baseline;  
+    margin: 0 2px;  
+    outline: none;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    font: 20px/100% Arial, Helvetica, sans-serif;  
+    padding: .5em 2em .55em;  
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    background-color: transparent;
+    color: blue;
+}
+
+#placeDiv {
+    position:absolute;
+    left:500px;
+    top:200px;
+    width: 250px;
+    color: blue;
+    font: 20px/100% Arial, Helvetica, sans-serif; 
+}
+
+ul#placeListView {
+    border: 1px solid #a9a9a9;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul#placeListView li {
+    border-bottom: 1px solid #a9a9a9;
+    padding: 10px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#e3e3e3));
+    background-image: -moz-linear-gradient(#f9f9f9, #e3e3e3);
+    background-image: -ms-linear-gradient(#f9f9f9, #e3e3e3);
+    background-image: -o-linear-gradient(#f9f9f9, #e3e3e3);
+    background-image: -webkit-linear-gradient(#f9f9f9, #e3e3e3);
+    background-image: linear-gradient(#f9f9f9, #e3e3e3);
+}
+
+ul#placeListView li:last-child {
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ul#placeListView li:first-child {
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
